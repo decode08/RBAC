@@ -1,10 +1,16 @@
-# Role Based Authentication System
+### **RBAC Implementation Summary**
 
-Authentication system where users can register, log in, and log out securely.
-- Secure methods such as JWT or OAuth for managing sessions and user authentication.
-- **Role-Based Access Control (RBAC)**, where the access to resources is determined based on the user's assigned role.
+This project implements a secure **Authentication**, **Authorization**, and **Role-Based Access Control (RBAC)** system using **Node.js**, **Express**, and **MongoDB**.
 
-> The code uses MongoDB, in case you are using another database there are few changes that has to be made to the configuration and the routes.
+#### **Features**
+1. **Authentication**:  
+   - User registration with **bcrypt**-hashed passwords.  
+   - Login with **JWT** for secure token-based sessions.  
 
-> > **It is always open for reviews and enhancements, especially when it comes to security**
+2. **Authorization**:  
+   - Role-based permissions (Admin, User, Moderator).  
+   - Middleware ensures access control for routes.
 
+3. **RBAC**:  
+   - Centralized role-permission mapping.  
+   - Scalable structure for adding roles/resources.
