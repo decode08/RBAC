@@ -1,8 +1,10 @@
-# Role based authentication
+# Role Based Authentication System
 
-Authentication service made for ExpressJS and MongoDB using JWT. We tried to make it as clean and structured as possible. We also provide this documentation on how to install and integrate it with your own application.
+Authentication system where users can register, log in, and log out securely.
+- Secure methods such as JWT or OAuth for managing sessions and user authentication.
+- **Role-Based Access Control (RBAC)**, where the access to resources is determined based on the user's assigned role.
 
 > The code uses MongoDB, in case you are using another database there are few changes that has to be made to the configuration and the routes.
 
-> > **It is also not final and always open for reviews and enhancements, especially when it comes to security**
+> > **It is always open for reviews and enhancements, especially when it comes to security**
 
